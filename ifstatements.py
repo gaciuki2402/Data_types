@@ -12,7 +12,7 @@ else:
 
 
 
-isRaining=True
+isRaining=False
 if isRaining:
     print('wash my clothes')
 else:
