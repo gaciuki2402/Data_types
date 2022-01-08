@@ -23,3 +23,15 @@ def students_info(name,age,grade,admNO):
     print(f"My name is {name} and i am {age} years old.\nAm admNo {admNO}.\nAm in grade {grade}.")
 students_info("Grace",16,8,5675)
 students_info("Ireen",17,8,5678)
+
+#create a function that takes parametes of English,Kiswahili,Mathematics,Science,and Social Studies
+#Output the total marks
+#Output mean for the student marks
+#Grade the pupil
+def results_slip(Eng,Kisw,Maths,Sci,SST):
+    TTM=Eng+Kisw+Maths+Sci+SST
+    Mean=TTM/5
+    print(f"Total:{Eng}+{Kisw}+{Maths}+{Sci}+{SST}={TTM}")
+    print(f"Mean:{TTM}/{5}={Mean}")
+    
+results_slip(66,74,64,72,79)
