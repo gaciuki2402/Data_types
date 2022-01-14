@@ -1,0 +1,1 @@
+dic={"name":"red","age":10}
