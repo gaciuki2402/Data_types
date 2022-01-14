@@ -4,9 +4,8 @@ class Hostel_Bookings():
         self.number_of_residents=eval(input("Evaluate number of residents:"))
         for resident in range (self.number_of_residents):
             if self.number_of_residents>3:
-                continue
-            print(self.Residents_Details())
-            return "No Space Available."
+                print( "No Space Available.")
+
             username=input("Name:")
             adm=input("AdmNO:")
             Year=input("Academic_Year:")
