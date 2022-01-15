@@ -1,2 +1,0 @@
-def myFunction(n):
-    
