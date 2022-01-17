@@ -1,3 +1,6 @@
+import json
+
+
 class Hostel_Bookings():
     def Residents_Details(self):
         self.ResidentsList=[]
@@ -22,7 +25,10 @@ class Hostel_Bookings():
             }
             self.ResidentsList.append(myDict)
             print("...Hostel Booked Successfully...")
-        print(self.ResidentsList)
+        # print(self.ResidentsList)
+        n=json.dumps(self.ResidentsList,indent=4)
+        print(n)
+
 
 H1=Hostel_Bookings()
 H1.Residents_Details()

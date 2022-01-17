@@ -1,7 +1,6 @@
 import json
 class Library_Details():
     def libraryDataCollection(self):
-        self.Details=[]
         self.registration_number=input("Enter the registration number:").upper() #tu01
         print(self.registration_number)
 
