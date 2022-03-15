@@ -21,7 +21,7 @@ class Hostel_Bookings():
                     "AdmNO":adm,
                     "Academic Year":Year,
                     "Hostel Name":hostel,
-                "RoomNO":room
+                    "RoomNO":room
             }
             self.ResidentsList.append(myDict)
             print("...Hostel Booked Successfully...")

@@ -15,7 +15,7 @@ class Hostel_Bookings():
                 myDict={
                     "Name":username,
                     "AdmNO":adm,
-                    "Academin Year":Year,
+                    "Academic Year":Year,
                     "Hostel Name":hostel,
                     "RoomNO":room
                 }
